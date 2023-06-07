@@ -10,3 +10,11 @@ button.addEventListener("click", () => {
     button.textContent = "TURN ON";
   }
 });
+
+window.addEventListener("DOMContentLoaded", function () {
+  const btnElement = document.getElementById("btn");
+  btnElement.addEventListener("click", function () {
+    const divElement = document.getElementById("div");
+    divElement.innerHTML += "<div>Hello BRO</div>";
+  });
+});
