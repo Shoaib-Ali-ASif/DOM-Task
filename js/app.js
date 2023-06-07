@@ -11,10 +11,9 @@ button.addEventListener("click", () => {
   }
 });
 
-window.addEventListener("DOMContentLoaded", function () {
-  const btnElement = document.getElementById("btn");
-  btnElement.addEventListener("click", function () {
-    const divElement = document.getElementById("div");
-    divElement.innerHTML += "<div>Hello BRO</div>";
-  });
+
+const divElement = document.getElementById("div");
+const btnElement = document.getElementById("btn-3");
+btnElement.addEventListener("click", function () {
+  divElement.innerHTML += "<div>Task Complete</div>";
 });
