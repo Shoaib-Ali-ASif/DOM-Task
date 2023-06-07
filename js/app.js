@@ -1,7 +1,7 @@
 const lightBulb = document.getElementById("lighbulb");
 const button = document.getElementById("btn");
 
-button.addEventListener("click", function () {
+button.addEventListener("click", () => {
   if (lightBulb.src.endsWith("bulboff.gif")) {
     lightBulb.src = "./pic_bulbon.gif";
     button.textContent = "TURN OFF";
