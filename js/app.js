@@ -1,5 +1,5 @@
 const lightBulb = document.getElementById("lighbulb");
-const button = document.getElementById("btn");
+const button = document.getElementById("btn-1");
 
 button.addEventListener("click", () => {
   if (lightBulb.src.endsWith("bulboff.gif")) {
